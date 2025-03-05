@@ -4,12 +4,12 @@ This came out of a desire to make nice looking coefficient plots with confidence
 
 The data we used were formatted into a CSV as such:
 
-![](images/clipboard-1441790283.png)
+![](md_images/csv.png)
 
 Item is the original survey item, mean is the mean score on the survey at the given timepoint, SD is the standard deviation (not used here), lowci and hici are the lower and upper 95% confidence intervals, time is our grouping variable (one row per item per timepoint), and label is the label in shorter form to appear on the plot. I haven't figured out a way to wordwrap longer labels on this plot but I am welcome to suggestions.
 
 The code produces the following plot when used with this data:
 
-![](images/clipboard-2539979141.png)
+![](md_images/example_plot.png)
 
 The code is commented so a beginning user can run it, but please don't hesitate to contact me if you need help.
