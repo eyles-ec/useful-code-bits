@@ -18,8 +18,8 @@ plotcsv$time = as.factor(plotcsv$time)
 ##create your plot
 plotcsv |>
   group_by(time) |> #can change grouping variable here
-  forestplot(labeltext = label2,
-             mean = Mean, #this is the dot in the centre
+  forestplot(labeltext = label, #this is a column with the label you want
+             mean = Mean, #this is the dot/item in the centre
              lower = lowci, #lower confidence interval/error term
              upper = hici, #upper confidence interval/error term
              ci.vertices = TRUE,
